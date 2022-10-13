@@ -1,0 +1,74 @@
+*
+{
+    padding:0;
+    margin: 0;
+
+}
+h2{
+    color: white;
+}
+.contactmain
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+form
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 4px;
+  
+}
+.add
+{
+    float: left;
+    padding-top: 5rem;
+    text-align: left;
+    color: hwb(0 22% 35%);
+    font-size: 7px;
+    font-weight: 300;
+    gap: 3px;
+}
+.contactsubmain input
+{
+    width: 20rem;
+    padding: 4px;
+    background-color: rgb(254 242 242);
+    border-radius: 3px;
+    border: none;
+    border:1px solid brown;
+    
+}
+.contactsubmain .cp
+{   width: 20rem;
+    height: 10rem;
+    text-align:left;
+}
+.add-icon
+{
+    color:  rgb(190 18 60);
+    width: 2rem;
+    font-size: 1.3rem;
+    gap: 2px;
+}
+.add-icon-p
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.add-icon-p2
+{
+  color: gray;
+  text-align: left;
+}
+.btn
+{
+    justify-content: center;
+}

@@ -1,0 +1,140 @@
+
+/* .main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    
+    
+
+} */
+.navbar-main
+{
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+
+ top:0;
+ box-shadow: 0 0 0 3px  hsl(345, 83%, 41%);
+
+
+}
+/* .intro-img-2
+{
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+} */
+.port
+{
+    color: hsl(345, 83%, 41%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.port:hover
+{
+  color:white;
+  cursor: pointer;
+  
+}
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    padding: sticky;
+    
+}
+
+.nav_menu li {
+    font-weight: 500;
+    padding: 1rem 2rem;
+}
+
+.nav_menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav_menu li a:hover {
+    color: brown;
+}
+
+
+.hamburger {
+    display: none;
+}
+@media screen and (max-width:470px) {
+
+    
+   
+            
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 500;
+        margin-left: -100rem;
+    }
+
+    .nav_menu.active {
+        margin-left: 0rem;
+        padding: 1.5rem 1rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .hamburger {
+    display: initial;
+   
+    }
+
+    .nav_menu li a:hover {
+        color: brown;
+    }
+
+}
+
+/*@media screen and (max-width:830px) {
+    
+    li{
+        padding: 1.5rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content:center;
+        cursor: pointer;
+        transition: 0.3s;
+       
+       
+    }
+    
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: x-large;
+        font-weight: 500;
+        margin-top: 5rem;
+        margin-left: -100rem;
+
+    }
+
+     li a:hover {
+        color: brown;
+    }
+
+   
+    .nav_menu.active {
+        margin-left: 0rem;
+        
+      
+    }
+
+    .hamburger {
+        display: initial;
+
+    }
+
+}*/

@@ -1,0 +1,45 @@
+.qualification
+{
+    height: 80vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     align-items: center;
+     
+     
+}
+.education ,.work 
+{
+    border: 1px solid gray;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: center;
+    background-color:  rgb(39 39 42);
+    width: 28rem;
+    height: 23rem;
+}
+.education p ,.work  p{
+    color:white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.work h4{
+    font-weight: 500;
+}
+.education h5 
+{
+    font-weight: 500;
+}
+.q-w
+{
+   color: rgb(190 18 60);
+  
+}
+.q-under
+{
+    color:rgb(190 18 60); 
+    
+    width: 10px;
+    font-size: 1rem;
+}

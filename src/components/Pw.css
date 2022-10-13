@@ -1,0 +1,64 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.project-first
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.projectwork_main
+{
+    display:flex;
+    flex-direction: column;
+}
+.projectwork_submain
+{
+    width: 20rem;
+    height: 27rem;
+    padding:1rem;
+    border: 1px solid black;
+    box-shadow:inset;
+    border-radius: 2px;
+    gap: 2rem;
+    
+   background-color:  rgb(39 39 42);
+}
+.projectwork_submain::shadow
+{
+    box-shadow: inset;
+}
+.projectwork-content
+{
+    display: block;
+}
+.projectwork_img
+{
+    padding: 0;
+    width: 100%;
+}
+
+.projectwork-content a{
+    background-color: rgb(190 18 60);
+    color:white;
+    padding: 7px 2rem 8px 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2px;
+    box-shadow: inset;
+    margin-left: 5rem;
+
+   
+}
+.projectwork-content a:hover
+{
+    background-color: transparent;
+    border: 2px solid rgb(190 18 60);
+}
+.projectwork-content p{
+    font-size: 15px;
+    font-weight: 200;
+}
