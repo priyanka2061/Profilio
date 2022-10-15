@@ -3,6 +3,7 @@ import './footer.css'
 import { Link } from 'react-router-dom'
 import { FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { FiChevronUp } from "react-icons/fi";
+import{MdExpandLess} from "react-icons/md"
 
 const handleClick = () => {
   window.open("https://www.linkedin.com/in/priyanka-kumari-636b93226/");
@@ -40,6 +41,7 @@ const Footer = () => {
 
         </div>
         </div>
+        <a href='#' className='scroolicon'><MdExpandLess/> </a>
         <div className='para2'>
            {/* <FiChevronUp className='footer-icon' /> */}
           <p className="col-sm">

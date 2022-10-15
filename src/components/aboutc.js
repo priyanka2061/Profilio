@@ -21,7 +21,7 @@ const Aboutc = () => {
                     <p className='add-icon-p2'>Jharkhand, India</p>
                 </div>
                     <div className='pht-about'>
-                    <img src={pic} alt="img" className='pht-about' />
+                    {/* <img src={pic} alt="img" className='pht-about' /> */}
                     </div>
                     
                 </div>
