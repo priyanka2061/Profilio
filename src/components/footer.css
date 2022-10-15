@@ -180,6 +180,7 @@
   text-align: center;
   /* border-radius: 3rem; */
   z-index: -1;
+  scroll-behavior: smooth;
   /* box-shadow: 0px 1px 0px  1px rgb(114, 109, 109); */
   
 }

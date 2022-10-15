@@ -12,7 +12,7 @@ const Pwdata=[
     {
         i:blood,
         t:"BloodGram",
-        para:" The BloodGram is useful in medical field for saving life. Many times people facing problem for blood during treatment , now every person having internet connection and smartPhone so let's use it and save human life during admit within minute throug this website."
+        para:" The BloodGram is useful in medical field for saving life. Many times people facing problem for blood during treatment , now every person having internet connection and smartPhone so let's use it and save human life during critical time within minutes through this website."
     },
     {
         i:portfolio,

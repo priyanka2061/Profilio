@@ -9,6 +9,7 @@
      
      
 }
+
 .education ,.work 
 {
     border: 1px solid gray;
@@ -16,8 +17,9 @@
     gap: 2rem;
     align-items: center;
     background-color:  rgb(39 39 42);
-    width: 28rem;
+    width: 24rem;
     height: 23rem;
+    
 }
 .education p ,.work  p{
     color:white;
