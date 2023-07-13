@@ -64,7 +64,7 @@
 .hamburger {
     display: none;
 }
-@media screen and (max-width:470px) {
+/* @media screen and (max-width:470px) {
 
     
    
@@ -74,7 +74,9 @@
         flex-direction: column;
         justify-content: center;
         font-weight: 500;
-        margin-left: -100rem;
+        /* margin-left: -100rem; */
+        /* margin: 0;
+        background-color: brown;
     }
 
     .nav_menu.active {
@@ -94,7 +96,7 @@
         color: brown;
     }
 
-}
+} */ 
 
 /*@media screen and (max-width:830px) {
     
